@@ -11,3 +11,46 @@ linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b128
 background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
 background-color: #840b2a;
 }
+
+@font-face {
+    font-family: 'scratch_my_backregular';
+    src: url('../font/SCRATCHM-webfont.eot');
+    src: url('../font/SCRATCHM-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/SCRATCHM-webfont.woff') format('woff'),
+         url('../font/SCRATCHM-webfont.ttf') format('truetype'),
+         url('../font/SCRATCHM-webfont.svg#scratch_my_backregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+	font-family: 'scratch_my_backregular';
+	margin: 20px 0;
+	font-style: normal;
+	font-size: 2.0em;
+	font-weight: bold;
+	line-height: 1em;
+	color: #00A300;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	display: block;
+	text-align: center;
+}
+
+#poem-style {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.container img {
+	width: 30%;
+	height: 30%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+}

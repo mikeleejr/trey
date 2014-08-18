@@ -36,12 +36,14 @@ h1 {
 }
 
 h2 {
+	font-family: 'scratch_my_backregular';
 	font-weight: bold;
 	display: block;
 	text-align: center;
 }
 
 #poem-style {
+	text-align: center;
 	font-style: italic;
 	font-weight: bold;
 }
@@ -53,4 +55,83 @@ h2 {
 	margin-right: auto;
 	margin-left: auto;
 	border-radius: 50%;
+}
+
+
+.gallery1 img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.gallery2 img {
+	width: 50%;
+	height: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.gallery3 img {
+	width: 50%;
+	height: 20%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.gallery4 img {
+	width: 35%;
+	height: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+.gallery5 img {
+	width: 25%;
+	height: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.gallery1 p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.gallery2 p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.gallery3 p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.gallery4 p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
+}
+
+.gallery5 p {
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	margin-top: 0;
 }
